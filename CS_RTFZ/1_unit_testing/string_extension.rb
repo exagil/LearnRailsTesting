@@ -1,4 +1,4 @@
-class String
+lass String
   def is_number?
     self =~ (/\d+/)
   end
