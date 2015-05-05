@@ -1,7 +1,7 @@
 class Zombie < ActiveRecord::Base
 	has_many :tweets
 
-	validates :name, presence: true
+	validates :name, :graveyard, presence: true
 
 	def avatar_url
 		"http://zombitar.com/#{id}.jpg"
