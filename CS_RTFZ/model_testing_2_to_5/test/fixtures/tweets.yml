@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+chirag_1:
+  status: Writing Code
+  zombie_id: 1
+
+chirag_2: 
+  status: Reading Books
+  zombie_id: 1

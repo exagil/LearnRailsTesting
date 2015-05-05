@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+weapon_1:
+  zombie_id: 1
+
+weapon_2:
+  zombie_id: 1
