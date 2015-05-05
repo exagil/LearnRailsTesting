@@ -7,9 +7,4 @@ class Zombie < ActiveRecord::Base
 	def avatar_url
 		"http://zombitar.com/#{id}.jpg"
 	end
-
-	def decapitate
-		weapon.slice(self, :head)
-		self.status("dead again")
-	end
 end

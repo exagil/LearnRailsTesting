@@ -40,10 +40,4 @@ class ZombieTest < ActiveSupport::TestCase
   test "should only contain tweets that belong to zombie" do
   	assert_equal true, @z.tweets.all? {|t| t.zombie == @z}
   end
-
-  test "decapitate should set the status to dead again" do
-    @z.weapon.expects(:slice)
-    @z.decapitate
-    assert "dead again", @z.status
-  end
 end
