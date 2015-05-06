@@ -3,9 +3,9 @@
 Learning Testing in Ruby / Ruby on Rails
 
 ####Completed
-none
+ - [CodeSchool Rails Testing for Zombies](http://rtfz.codeschool.com/)
 
 ####In Progress
- - [CodeSchool Rails Testing for Zombies](http://rtfz.codeschool.com/)
+ - [CodeSchool Testing with RSpec](http://rspec.codeschool.com/)
 
 
